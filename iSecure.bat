@@ -10,7 +10,7 @@ echo "Done!"
 java ChatClient
 echo "Type 'done' when you want to exit"
 read %RE%
-if(%RE% === "done") {
+if(%RE% == "done") {
   exit
 } else {
   echo "Command not recognized"
